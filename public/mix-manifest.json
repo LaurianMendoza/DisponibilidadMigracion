@@ -1,0 +1,10 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/Apartados/ServiciosEscolares/ProcesoEscolar/FinCuatrimestre/showAlumnos.js": "/js/Apartados/ServiciosEscolares/ProcesoEscolar/FinCuatrimestre/showAlumnos.js",
+    "/js/Apartados/ServiciosEscolares/Informes/CalificacionesInmersion/CalificacionesInmersion.js": "/js/Apartados/ServiciosEscolares/Informes/CalificacionesInmersion/CalificacionesInmersion.js",
+    "/js/Apartados/ServiciosEscolares/ProcesoEscolar/Titulacion/showEgresados.js": "/js/Apartados/ServiciosEscolares/ProcesoEscolar/Titulacion/showEgresados.js",
+    "/js/Apartados/Estudiantiles/Becas/BecasDescuento.js": "/js/Apartados/Estudiantiles/Becas/BecasDescuento.js",
+    "/js/Apartados/Estudiantiles/InscritosReinscritos/InscritosReinscritos.js": "/js/Apartados/Estudiantiles/InscritosReinscritos/InscritosReinscritos.js",
+    "/js/Administrador/Seguridad.Estudiantes.js": "/js/Administrador/Seguridad.Estudiantes.js",
+    "/css/app.css": "/css/app.css"
+}

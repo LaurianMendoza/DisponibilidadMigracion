@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+
+::selection {
+	background: transparent;
+}
+
+h4 {
+	font-size: 26px;
+	line-height: 1px;
+	font-family: 'Amatic SC', cursive !important;
+}
+
+.color1{color:rgb(100, 13, 100)}/*MOUNTAIN MEADOW*/
+.color2{color:#C0392B/*TALL POPPY*/}
+
+.welcome_card{
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #81ffcb !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 30000;
+    animation: fadeIN 1s forwards;
+}
+
+.card {
+	color: #013243; /*SHERPA BLUE*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 280px;
+	height: 400px !important;
+	background: #e0e1dc;
+	transform-style: preserve-3d;
+	transform: translate(-50%,-50%) perspective(2000px);
+	box-shadow: inset 300px 0 50px rgba(0,0,0,.5), 20px 0 60px rgba(0,0,0,.5);
+	transition: 1s;
+    z-index: 20000;
+    border-radius: 10px;
+}
+
+.card:hover {
+	transform: translate(-50%,-50%) perspective(2000px) rotate(15deg) scale(1.2);
+	box-shadow: inset 20px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,.5);
+}
+
+.card:before {
+	content:'';
+	position: absolute;
+	top: -5px;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background: #BAC1BA;
+	transform-origin: bottom;
+	transform: skewX(-45deg);
+    border-radius: 10px;
+}
+
+.card:after {
+	content: '';
+	position: absolute !important;
+	top: 0 !important;
+	right: -5px !important;
+	width: 5px !important;
+	height: 100% !important;
+	background: #92A29C !important;
+	transform-origin: left !important;
+	transform: skewY(-45deg) !important;
+    border-radius: 10px;
+}
+
+.card .imgBox {
+	width: 100% !important;
+	height: 100% !important;
+	position: relative !important;
+	transform-origin: left !important;
+	transition: .7s !important;
+    background-color: rgb(100, 13, 100) !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 10px;
+}
+
+.card .bark {
+	position: absolute !important;
+	background: #e0e1dc !important;
+	width: 100% !important;
+	height: 100% !important;
+	opacity: 0 !important;
+	transition: .7s !important;
+    border-radius: 10px;
+}
+
+.card .imgBox img {
+	min-width: 250px !important;
+	max-height: 400px !important;
+}
+
+.card:hover .imgBox {
+	transform: rotateY(-135deg) !important;
+}
+
+.card:hover .bark {
+	opacity: 1 !important;
+	transition: .6s !important;
+  box-shadow: 300px 200px 100px rgba(0, 0, 0, .4) inset !important;
+}
+
+.card .details {
+	position: absolute !important;
+    border-radius: 10px;
+	top: 0 !important;
+	left: 0 !important;
+	box-sizing: border-box !important;
+	padding: 0 0 0 10px !important;
+	z-index: -1 !important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    gap: 9%;
+    height:390px;
+}
+
+.card .details div p {
+	font-size: 15px !important;
+	padding: 0 0 0 20px !important;
+}
+
+.card .details h4 {
+	text-align: center !important;
+}
+
+.text-right {
+	text-align: right !important;
+}
+
+@keyframes fadeIN{
+    from{
+        display: none;
+        opacity: 0;
+    }
+    to{
+        display: flex;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOUT{
+    from{
+        display: flex;
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        display: none;
+    }
+}

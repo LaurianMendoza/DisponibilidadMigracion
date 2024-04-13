@@ -1,0 +1,239 @@
+@import url('https://fonts.cdnfonts.com/css/encode-sans-2');
+
+* {
+    padding: 0;
+    margin: 0%;
+}
+
+@page {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+span{
+    font-family: 'Encode Sans', sans-serif !important;
+}
+
+.lbl_credencial_matricula {
+    font-size: 32px !important;
+    font-weight: 900;
+    right: 180;
+    top: 112;
+    position: fixed;
+    color: black;
+    /*right: 120;
+    top: 95;*/
+}
+
+.lbl_credencial_nombre {
+    font-size: 40px !important;
+    line-height: 40px;
+    font-weight: 900;
+    width: 800px;
+    top: 190;
+    left: 430px;
+    font-family: 'Encode Sans', sans-serif !important;
+    position: fixed;
+    color: black;
+    /*right: 120;
+    top: 95;*/
+}
+
+.lbl_credencial_apellidos {
+    font-size: 32px !important;
+    color: black;
+    font-weight: 900;
+    left: 430px;
+    top: 200;
+    width: 70%;
+    position: fixed;
+    /*right: 120;
+    top: 95;*/
+}
+
+.lbl_credencial_carrera {
+    font-size: 40px !important;
+    line-height: 40px;
+    font-weight: 900;
+    width: 800px;
+    top: 308;
+    left: 431px;
+    position: fixed;
+    color: black;
+    /*right: 120;
+    top: 95;*/
+}
+
+.lbl_credencial_estudiante {
+    color: white;
+    font-weight: 1000;
+    font-size: 75px;
+    right: 160;
+    top: 530;
+    position: fixed;
+}
+
+@page {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.lbl_credencial_emergencia1 {
+    font-weight: 900;
+    color: black;
+    left: 60;
+    top: 60;
+    width: 100%;
+    position: fixed;
+    letter-spacing: .00001px;
+
+    /*right: 120;
+    top: 95;*/
+}
+
+.lbl_credencial_emergencia2 {
+    font-weight: 900;
+    color: black;
+    left: 366;
+    top: 64;
+    width: 100%;
+    position: fixed;
+    letter-spacing: .00001px;
+    /*right: 120;
+    top: 95;*/
+}
+
+.lbl_credencial_numSeguridad1 {
+    color: black;
+    font-weight: 900;
+    left: 60;
+    top: 18;
+    width: 100%;
+    position: fixed;
+    letter-spacing: .00001px;
+    /*right: 120;
+    top: 95;*/
+}
+
+.lbl_credencial_numSeguridad2 {
+    color: black;
+    font-weight: 900;
+    left: 160;
+    top: 18;
+    width: 100%;
+    position: fixed;
+    letter-spacing: .00001px;
+    /*right: 120;
+    top: 95;*/
+}
+
+.lbl_periodoPos1 {
+    color: black;
+    font-weight: 900;
+    left: 83;
+    top: 119;
+    width: 100%;
+    position: fixed;
+    letter-spacing: .00001px;
+
+}
+
+.lbl_periodoPos2 {
+    color: black;
+    font-weight: 900;
+    left: 260;
+    top: 119;
+    width: 100%;
+    position: fixed;
+    letter-spacing: .00001px;
+}
+
+.lbl_periodoPos3 {
+    color: black;
+    font-weight: 900;
+    left: 437;
+    top: 120;
+    width: 100%;
+    position: fixed;
+    letter-spacing: .00001px;
+}
+
+.lbl_periodoPos4 {
+    color: black;
+    font-weight: 900;
+    left: 630;
+    top: 120;
+    width: 100%;
+    position: fixed;
+    letter-spacing: .00001px;
+}
+
+.lbl_periodoPos5 {
+    color: black;
+    font-weight: 900;
+    left: 806;
+    top: 120;
+    width: 100%;
+    position: fixed;
+    letter-spacing: .00001px;
+}
+
+.lbl_periodoPos6 {
+    color: black;
+    font-weight: 900;
+    left: 73;
+    top: 346;
+    width: 100%;
+    position: fixed;
+    letter-spacing: .00001px;
+}
+
+.lbl_periodoPos7 {
+    color: black;
+    font-weight: 900;
+    left: 264;
+    top: 346;
+    width: 100%;
+    position: fixed;
+    letter-spacing: .00001px;
+}
+
+.lbl_periodoPos8 {
+    color: black;
+    font-weight: 900;
+    left: 439;
+    top: 346;
+    width: 100%;
+    position: fixed;
+    letter-spacing: .00001px;
+}
+
+.lbl_periodoPos9 {
+    color: black;
+    font-weight: 900;
+    left: 620;
+    top: 346;
+    width: 100%;
+    position: fixed;
+    letter-spacing: .00001px;
+}
+
+.lbl_periodoPos10 {
+    color: black;
+    font-weight: 900;
+    left: 810;
+    top: 346;
+    width: 100%;
+    position: fixed;
+    letter-spacing: .00001px;
+}
+
+.content_Foto {
+    left: 55;
+    top: 170;
+    position: fixed;
+}

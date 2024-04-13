@@ -1,0 +1,120 @@
+
+@font-face {
+    font-family: BrushScript;
+    src: url('../fonts/BrushScript/BrushScriptOpti-Regular.otf');
+}
+
+.text_div_txt{
+    font-size: 40px;
+    font-family: BrushScript;
+}
+/*---- QUERYS PARA EL LOGIN ----*/
+@media (min-width: 1350px) and (max-width: 1750px){
+    .login_div{
+        width: 390px !important; min-height: 440px !important; border-radius: 10px; background-color: rgba(255, 255, 255, 0.855);
+    }
+
+}
+@media (min-width: 600px) and (max-width: 1349px){
+    .login_pc_bg{
+        display: none !important;
+    }
+    .login_mobile_bg{
+        display: flex !important;
+    }
+    .login_div{
+        width: 380px !important; min-height: 310px !important; border-radius: 10px; background-color: rgba(255, 255, 255, 0.855);
+        margin-top: -3% !important;
+    }
+    .login_pc_container{
+        gap: 1% !important;
+    }
+    .copy_div{
+        margin-top: 1% !important;
+    }
+}
+@media (min-width: 580px) and (max-width: 599px){
+    .login_pc_bg{
+        display: none !important;
+    }
+    .login_mobile_bg{
+        display: flex !important;
+    }
+    .login_div{
+        width: 380px !important; min-height: 310px !important; border-radius: 10px; background-color: rgba(255, 255, 255, 0.855);
+        margin-top: -3% !important;
+    }
+    .login_pc_container{
+        gap: 1% !important;
+    }
+    .copy_div{
+        margin-top: 1% !important;
+    }
+}
+@media (min-width: 480px) and (max-width: 579px){
+    .login_pc_bg{
+        display: none !important;
+    }
+    .login_mobile_bg{
+        display: flex !important;
+    }
+
+    .login_div{
+        width: 360px !important; min-height: 310px !important; border-radius: 10px; background-color: rgba(255, 255, 255, 0.855);
+        margin-top: -3% !important;
+    }
+    .login_pc_container{
+        gap: 1% !important;
+    }
+    .copy_div{
+        margin-top: 1% !important;
+    }.copy_div span{
+        font-size: 13px !important;
+    }
+}
+@media (min-width: 300px) and (max-width: 479px){
+    .login_pc_bg{
+        display: none !important;
+    }
+    .login_mobile_bg{
+        display: flex !important;
+    }
+
+    .login_div{
+        width: 330px !important; min-height: 310px !important; border-radius: 10px; background-color: rgba(255, 255, 255, 0.855);
+        margin-top: -28% !important;
+    }
+    .login_pc_container{
+        gap: 1% !important;
+    }
+    .copy_div{
+        margin-top: 1% !important;
+    }.copy_div span{
+        font-size: 13px !important;
+        text-align: center !important;
+    }
+    .text_div span{
+        font-size: 30px !important;
+    }
+}
+/*--------------------------------------------------------------------------------------------*/
+
+
+/*LOGIN STYLES*/
+.login_div{
+    width: 430px; min-height: 440px; border-radius: 10px; background-color: rgb(255, 255, 255);
+}
+
+.text_div{
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+}
+
+.copy_div{
+    margin-top: 15%; margin-bottom: -12%;
+}
+
+.login_mobile_bg{
+    display: none; background-color: white !important; width: 100%; height: 100vh; background-position:center;
+    justify-content: center; align-items: center; background-repeat:no-repeat; -webkit-background-size:cover;
+    -moz-background-size:cover; -o-background-size:cover; background-size: cover;
+}

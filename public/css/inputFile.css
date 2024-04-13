@@ -1,0 +1,23 @@
+.FileInputs {
+    /* Style the color of the message that says 'No file chosen' */
+    color: #878787;
+}
+
+.FileInputs::-webkit-file-upload-button {
+    background: rgb(100, 13, 100) !important;
+    border: 2px solid rgb(100, 13, 100) !important;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    outline: none;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    transition: all 1s ease;
+}
+
+.FileInputs::-webkit-file-upload-button:hover {
+    background: #fff;
+    border: 2px solid #535353;
+    color: rgb(255, 255, 255);
+}

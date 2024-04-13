@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Exports\Escolares\Informes;
+
+use Maatwebsite\Excel\Concerns\FromView;
+use Illuminate\Contracts\View\View;
+use Illuminate\Support\Facades\DB;
+use stdClass;
+
+class kardexCertificadoExport implements FromView
+{
+    public $consulta;
+
+    public function __construct($consulta){
+        $this->consulta = $consulta;
+    }
+
+    public function view(): View{
+        $consulta = $this->consulta;
+        return view('ServiciosEscolares.Informes.Kardex.kardexCertificadoExcel',
+        compact('consulta'));
+    }
+
+}

@@ -1,0 +1,485 @@
+/** Define the margins of your page **/
+@page {
+    margin: 100px 25px;
+}
+
+header {
+    position: fixed;
+    top: -60px;
+    left: 20px;
+    right: 20px;
+    height: 50px;
+
+
+    /** Extra personal styles **/
+    /* background-color: #03a9f4;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+
+    */
+}
+
+footer {
+    position: fixed;
+    bottom: -60px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+
+    /** Extra personal styles **/
+    /*
+    background-color: #03a9f4;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+*/
+}
+
+
+.header-carta {
+    position: fixed;
+    top: -75px;
+    left: 20px;
+    right: 20px;
+    height: 50px;
+
+
+    /** Extra personal styles **/
+    /* background-color: #03a9f4;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+
+    */
+}
+
+.footerCarta {
+    position: fixed;
+    bottom: -130px;
+    left: 0px;
+    right: 0px;
+    height: 250px;
+
+
+    /** Extra personal styles **/
+    /**
+    background-color: #03a9f4;
+    color: white;
+    text-align: center;
+    line-height: 250px;
+**/
+}
+
+.footerConstancia {
+    position: fixed;
+    bottom: -60px;
+    left: 0px;
+    right: 0px;
+    height: 35px;
+
+
+}
+
+.tablaGeneral {
+    color: rgb(0, 0, 0);
+    line-height: 0.5;
+    font-size: 10px;
+}
+
+
+.tablaMaterias {
+    color: rgb(0, 0, 0);
+    line-height: 0.4;
+    font-size: 8px;
+}
+
+.tablaCabecera {
+    color: rgb(0, 0, 0);
+    font-size: 8px;
+}
+
+.datosFirma {
+    color: rgb(0, 0, 0);
+    font-size: 8px;
+}
+
+.firma {
+    color: rgb(0, 0, 0);
+    font-size: 6px;
+}
+
+.foto {
+    width: 2.5cm;
+    height: 3cm;
+    font-size: 12px;
+    border: 1.5px solid rgb(0, 0, 0);
+}
+
+.texto_foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.saltoPaginaTabla {
+    page-break-inside: avoid;
+    /*(page-break-inside: avoid) evita que la tabla se rompa y en su lugar da un salto de pagina*/
+}
+
+/* Tabla de historial de materias impartidas por profesor */
+
+.table-constanciaProfesor {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+
+.table-constanciaProfesor {
+    display: table;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 0px;
+    border-color: rgb(0, 0, 0);
+}
+
+
+.table-constanciaProfesor td {
+    padding: .60rem;
+    vertical-align: middle;
+    border-top: none;
+    border: 1px solid black;
+
+    border-style: dotted;
+    border-width: 1px;
+    border-color: black;
+    font-size: 8pt;
+}
+
+.table-constanciaProfesor th {
+    padding: .60rem;
+    vertical-align: middle;
+    border-top: none;
+    border: 1px solid black;
+
+    border-style: dotted;
+    border-width: 1px;
+    border-color: black;
+    font-size: 8pt;
+}
+
+.table-constanciaProfesor thead th {
+    background-color: none;
+    vertical-align: middle;
+    border-bottom: none;
+    font-size: 9pt;
+}
+
+
+.fecha {
+    width: 2.7cm;
+    color: rgb(0, 0, 0);
+    font-size: 13pt;
+    font: 100% sans-serif;
+    line-height: 12pt
+}
+
+.cartaTexto {
+    color: rgb(0, 0, 0);
+    font: 100% sans-serif;
+    font-size: 11pt;
+    line-height: 15pt;
+
+}
+
+.FirmaCarta {
+    color: rgb(0, 0, 0);
+    font: 100% sans-serif;
+    font-size: 11pt;
+
+}
+
+/* ================================================================================== */
+
+/*============================= ACTA DE CALIFICACIONES* ==============================*/
+
+.table-actaCalificaciones {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000000;
+
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.table-actaCalificaciones th {
+    font-weight: normal;
+}
+
+
+.table-actaCalificaciones {
+    display: table;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 0px;
+    border-color: rgb(0, 0, 0);
+}
+
+
+.table-actaCalificaciones td,
+.table-actaCalificaciones th {
+    vertical-align: middle;
+    border-top: none;
+    border: 1px solid black;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    font-size: 5.2pt;
+
+    border-left: none;
+    border-right: none;
+    padding: 1px;
+}
+
+.table-actaCalificaciones tr:first-child {
+    border-top: 9px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+
+.table-actaCalificaciones thead th {
+    background-color: none;
+    vertical-align: middle;
+    border-bottom: none;
+    font-size: 5.5pt;
+
+}
+
+.FirmaActa {
+    color: rgb(0, 0, 0);
+    font: 100% sans-serif;
+    font-size: 5.5pt;
+
+}
+
+
+
+.table-actaComp {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000000;
+
+    border: 0.5px solid black;
+}
+
+.table-actaComp th {
+    font-weight: normal;
+}
+
+
+.table-actaComp {
+    display: table;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 0px;
+    border-color: rgb(0, 0, 0);
+}
+
+
+.table-actaComp td,
+.table-actaComp th {
+    vertical-align: middle;
+    border-top: none;
+    border: 0.5px solid black;
+
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    font-size: 5.2pt;
+    padding: 1px;
+}
+
+.table-actaComp tr:first-child {
+    border-top: 9px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+
+.table-actaComp thead th {
+    background-color: none;
+    vertical-align: middle;
+    border-bottom: none;
+    font-size: 5.5pt;
+
+}
+
+/* ================================================================================== */
+
+/*============================= HOARARIO DEL PROFESOR ==============================*/
+
+.table-horarioProfesor {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+
+.table-horarioProfesor {
+    display: table;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 0px;
+    border-color: rgb(0, 0, 0);
+}
+
+
+.table-horarioProfesor td,
+.table-horarioProfesor th {
+    padding: .60rem;
+    vertical-align: middle;
+    border-top: none;
+    border: 1px solid black;
+
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    font-size: 6pt;
+}
+
+
+.table-horarioProfesor thead th {
+    background-color: none;
+    vertical-align: middle;
+    border-bottom: none;
+    font-size: 9pt;
+}
+
+.table-nombreProfesor {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.table-nombreProfesor th {
+    font-size: 10pt;
+    background-color: rgb(223, 223, 223);
+}
+
+
+
+/* ================================================================================== */
+
+
+
+/*============================= FORMATO DE REGISTRO DE ASPISTENCIA POR SELECCION ==============================*/
+
+.table-nombreEmpleadoincidenciaSeleccion {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.table-nombreEmpleadoincidenciaSeleccion th {
+    font-size: 10pt;
+    background-color: rgb(223, 223, 223);
+}
+
+
+.table-incidenciaSeleccion {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+
+.table-incidenciaSeleccion {
+    display: table;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 0px;
+    border-color: rgb(0, 0, 0);
+}
+
+
+.table-incidenciaSeleccion td,
+.table-incidenciaSeleccion th {
+    padding: .60rem;
+    vertical-align: middle;
+    border-top: none;
+    border: 1px solid black;
+
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    font-size: 6pt;
+}
+
+
+.table-incidenciaSeleccion thead th {
+    background-color: none;
+    vertical-align: middle;
+    border-bottom: none;
+    font-size: 9pt;
+}
+
+
+
+
+.table-incidenciaSeleccionConteo {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+
+.table-incidenciaSeleccionConteo {
+    display: table;
+    border-collapse: collapse;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 0px;
+    border-color: rgb(0, 0, 0);
+}
+
+
+.table-incidenciaSeleccionConteo td,
+.table-incidenciaSeleccionConteo th {
+    padding: .60rem;
+    vertical-align: middle;
+    border-top: none;
+    border: none;
+
+    font-size: 6pt;
+}
+
+
+.table-incidenciaSeleccionConteo thead th {
+    background-color: none;
+    vertical-align: middle;
+    border-bottom: none;
+    font-size: 9pt;
+}
+
+
+.datosFirmaincidenciaSeleccion {
+    color: rgb(0, 0, 0);
+    font-size: 9pt;
+}
+
+.firmaincidenciaSeleccion {
+    color: rgb(0, 0, 0);
+    font-size: 10pt;
+}
+
+/* ================================================================================== */
